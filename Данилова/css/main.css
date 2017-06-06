@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(92, 205, 219, 1);
+}
+
+.wrapper {
+    width: 750px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(92, 205, 219, 1) url("../img/header-bg.png") no-repeat;
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+    height: 336px;
+}
+
+.black-line {
+    height: 29px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    margin-bottom: -20px;
+}
+
+.company-slogan {
+    position: relative;
+    top: 120px;
+    left: 130px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.logo {
+    position: relative;
+    top: 10px;
+    left: 550px;
+    width: 175px;
+    z-index: 2;
+}
+
+.bubbles {
+    background: url("../img/bubbles.png") no-repeat;
+    height: 240px;
+    width: 120px;
+    position: relative;
+    top: -20px;
+    left: 540px;
+    z-index: 1;
+}
+
+.header-v-menu {
+    position: relative;
+    left: 600px;
+    top: -220px;
+    z-index: 10;
+    color: white;
+    width: 150px;
+}
+
+.v-menu-list {
+    list-style-type: none;
+    width: 150px;
+}
+
+.v-menu-list li:before {
+    content: "-";
+}
+
+.v-menu-list a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.v-menu-list a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    background-color: black;
+    font-size: 18px;
+    height: 40px;
+    text-align: center;
+    margin-top: -30px;
+
+}
+
+.menu-item {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.menu-item a {
+    color: rgba(123, 123, 123, 1);
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: .18s ease .06s;
+}
+
+.menu-item a:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(185, 185, 185, 1);
+}
+
+.center-col p,
+.center-col h3 {
+    padding: 10px;
+}
+
+.left-col p,
+.right-col p {
+    padding-bottom: 10px;
+}
+
+.left-col,
+.center-col,
+.right-col {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.left-col {
+    width: 170px;
+    background-color: rgba(40, 174, 212, 1);
+}
+
+.center-col {
+    width: 425px;
+    background-color: rgba(22, 118, 168, 1);
+}
+
+.right-col {
+    width: 155px;
+    background-color: rgba(40, 174, 212, 1);
+    padding-left: 5px;
+}
