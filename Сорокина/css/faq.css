@@ -1,0 +1,28 @@
+.questions-list {
+    display: table-cell;
+}
+
+.questions-list {
+    width: 545px;
+    vertical-align: top;
+    margin: 0;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.question {
+    margin: 15px 0 20px 20px;
+}
+
+.question-head {
+    display: list-item;
+    font-weight: bold;
+    list-style-type: circle;
+}
+
+.question-head p:first-child {
+    padding-bottom: 10px;
+}
+
+.question-answer {
+
+}
