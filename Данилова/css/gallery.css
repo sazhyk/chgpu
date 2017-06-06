@@ -1,0 +1,9 @@
+.gallery-preview {
+    text-align: center;
+}
+
+.gallery-preview img {
+    max-height: 150px;
+    max-width: 145px;
+    display: inline-flex;
+}
