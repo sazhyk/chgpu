@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.wrapper {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 330px;
+    background: url("../img/header.png");
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.company-name {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: 82px;
+    left: 60px;
+}
+
+.company-slogan {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    top: 286px;
+    left: 5px;
+}
+
+.menu,
+.page-body,
+.right-col {
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+}
+
+.menu-list {
+    list-style: none;
+    height: 38px;
+    background-image: linear-gradient(to top, rgba(185, 185, 185, 1), rgba(255, 255, 255, 1));
+    box-shadow: 0 5px 4px -2px rgba(0, 0, 0, .75);
+}
+
+.menu-item {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.menu-item a {
+    color: rgba(123, 123, 123, 1);
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: .18s ease .06s;
+}
+
+.menu-item a:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(185, 185, 185, 1);
+}
+
+.page-body {
+    font-size: 12pt;
+    line-height: 12pt;
+}
+
+.left-col,
+.right-col {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.left-col {
+    width: 450px;
+}
+
+.main-text p {
+    padding: 10px;
+    text-indent: 10px;
+}
+
+.main-img {
+    text-align: center;
+}
+
+.main-img .preview {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.right-col {
+    text-align: center;
+    width: 300px;
+}
+
+.preview img {
+    box-shadow: none;
+}
+
+.right-col img,
+.preview img {
+    opacity: .65;
+    transition: .18s ease-in-out .08s;
+}
+
+.preview img:hover {
+    opacity: 1;
+    box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, .6);
+}
+
+.right-col h1 {
+    color: rgba(116, 116, 116, 1);
+    font-size: 24pt;
+    margin: 10px;
+}
+
+.right-col .head-mark {
+    color: rgba(255, 0, 0, 1);
+}
+
+.right-col img:hover {
+    opacity: 1;
+}
