@@ -1,0 +1,28 @@
+.content-column {
+    padding: 15px 0;
+}
+
+.kate,
+.mike,
+.jacob {
+    margin-bottom: 25px;
+}
+
+.avatar {
+    width: 270px;
+}
+
+.description {
+    width: 400px;
+}
+
+.avatar,
+.description {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.avatar img {
+    max-height: 250px;
+    max-width: 250px;
+}
