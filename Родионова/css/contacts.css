@@ -1,0 +1,22 @@
+.photos {
+    text-align: center;
+    margin: 45px 15px;
+}
+
+.photos img {
+    max-height: 125px;
+    max-width: 250px;
+}
+
+.address {
+    margin-bottom: 35px;
+}
+
+.address span:first-child {
+    margin-top: 25px;
+}
+
+.address span {
+    display: block;
+    margin: 10px 0;
+}

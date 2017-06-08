@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.wrapper {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 280px;
+    background: url("../img/header.png") no-repeat;
+    margin-bottom: -35px;
+}
+
+.logo,
+.company-name,
+.company-slogan {
+    width: 190px;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 248px;
+}
+
+.company-name {
+    position: relative;
+    top: 34px;
+    left: 284px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 24px;
+}
+
+.first-letter {
+    font-weight: bold;
+}
+
+.company-slogan {
+    position: relative;
+    top: 30px;
+    left: 256px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 11px;
+}
+
+.menu {
+    width: 500px;
+    margin-left: 165px;
+    margin-bottom: 15px;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.menu-item {
+    display: inline;
+}
+
+.menu-item a {
+    text-decoration: none;
+    padding: 4px 12px;
+    font-size: 18px;
+    font-family: "Arial Black", Arial, sans-serif;
+    color: rgba(46, 84, 192, 1);
+    position: relative;
+    bottom: 0;
+    transition: .22s cubic-bezier(0.35, 0, 0.35, 1) .07s;
+}
+
+.menu-item a:hover {
+    color: #6188f9;
+    bottom: 4px;
+}
+
+.content {
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+    color: rgba(170, 170, 170, 1);
+}
+
+.content h1 {
+    color: rgba(193, 193 ,193, 1);
+}
+
+.left-col,
+.right-col {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.left-col {
+    width: 450px;
+    border-right: 1px solid rgba(132, 132, 132, 1);
+    margin-right: 10px;
+}
+
+.right-col {
+    width: 300px;
+    padding: 10px;
+}
+
+.post {
+    margin: 40px 0 70px;;
+}
+
+.post p,
+.post .post-img {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.post p {
+    padding: 0 0 0 10px ;
+}
+
+.post-img {
+    padding-top: 5px;
+}
